@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 10 * * *"   # 07:00 em Brasília
   workflow_dispatch:        # botão "Run workflow" na aba Actions
+  push:                     # editar a configuração ou o código já atualiza o site
+    branches: [main]
+    paths: ["config/**", "radar/**", "site/**", "requirements.txt", ".github/workflows/**"]
 
 permissions:
   contents: write   # gravar data/ de volta no repositório
