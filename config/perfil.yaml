@@ -1,0 +1,121 @@
+# Perfil usado para pontuar cada oportunidade.
+# Os termos são expressões regulares, sem diferenciar maiúsculas de minúsculas.
+# Cada grupo soma `peso` por termo distinto encontrado, até `max_termos`.
+
+limiar_inclusao: 5      # abaixo disso, a oportunidade é descartada
+limiar_destaque: 10     # a partir disso, vai para "Destaques" na newsletter
+
+# Pelo menos um destes grupos precisa aparecer no texto,
+# exceto nas fontes marcadas com `tematica: true` em fontes.yaml.
+exige_algum_de: [ecologia, ia]
+
+# O título precisa ter cara de chamada. Isso separa os editais das notícias,
+# podcasts e posts de blog que os mesmos feeds publicam.
+titulo_exige:
+  - grants?\b|fellowships?|scholarships?|studentships?|awards?\b|prizes?\b
+  - \bfund(s|ing)?\b|calls? for (applications|proposals|nominations|expressions?)|programmes?\b|\bprograms?\b
+  - bolsas?|edital|chamada|financiamento
+  - opportunit|apply|applications|visiting|exchange|internships?|competition|challenge
+titulo_exclui:
+  - ^protected:|podcast|webinar|interview|in conversation|\|
+  - ^how to\b|\btips\b|think ahead|best moments|highlights|meet the
+  - winners?\b|announced|announces|congratulat|names \d+|(grants|awards|invests) \$|new paper
+
+grupos:
+  ecologia:
+    peso: 3
+    max_termos: 3
+    termos:
+      - ecolog
+      - biodivers
+      - conserva(tion|ção)
+      - \bmarine\b|\bmarinh
+      - ocean
+      - \breefs?\b|recife
+      - \bcoral
+      - \bfish(es|eries)?\b|\bictio|ichthy
+      - coastal|costeir
+      - wildlife|fauna
+      - ecosystem|ecossistem
+      - biogeograph|macroecolog
+      - \bspecies\b
+      - environmental science|ciências ambientais
+      - zoolog|evolution(ary)? biology
+      - climate change|mudanças climáticas
+  ia:
+    peso: 3
+    max_termos: 2
+    termos:
+      - machine learning|aprendizado de máquina
+      - deep learning
+      - artificial intelligence|inteligência artificial|\bAI\b
+      - computer vision|visão computacional
+      - neural network
+      - data science|ciência de dados
+      - remote sensing|sensoriamento remoto
+      - bioacoustic|camera[- ]trap
+      - ecoinformatic|conservation tech
+  etapa:
+    peso: 2
+    max_termos: 2
+    termos:
+      - \bph\.?d\b|doctora(l|te)|doutorad
+      - graduate students?|postgraduate|pós-gradua
+      - early[- ]career
+      - sandwich|sanduíche
+      - visiting (phd|research|scholar|student|fellow)
+      - research (stay|visit|exchange|mobility)|mobilidade
+      - cotutelle|split[- ]site|joint supervision
+  financiamento:
+    peso: 2
+    max_termos: 2
+    termos:
+      - (small|research|seed|field|travel) grants?
+      - fellowships?
+      - scholarships?|\bbolsas?\b
+      - fieldwork|field work|trabalho de campo
+      - expedition|exploration fund
+  elegibilidade:
+    peso: 2
+    max_termos: 1
+    termos:
+      - brazil|brasil
+      - latin america|américa latina|south america
+      - global south|developing countr|low.{0,20}middle.income
+      - all nationalities|any nationality|open to all|worldwide|international (students|applicants)
+
+# Penalidades: aplicadas uma vez por regra, se qualquer termo aparecer
+# e o padrão `exceto` (opcional) não aparecer.
+penalidades:
+  - motivo: restrito a cidadãos de outro país
+    peso: -8
+    termos:
+      - (us|u\.s\.) citizens?( or permanent residents)?( only)?
+      - must be (a )?(us|u\.s\.|uk|eu|canadian|australian) (citizen|national|resident)
+      - (eu|uk|african|asian|indian|nigerian|pakistani) (nationals|citizens) only
+      - open (only )?to (citizens|nationals) of (?!brazil|latin)
+  - motivo: graduação, ensino médio ou mestrado
+    peso: -5
+    exceto: \bph\.?d\b|doctora|doutorad   # "mestrado e doutorado" não é penalizado
+    termos:
+      - undergraduate|high school|secondary school
+      - bachelor'?s (degree|program|scholarship)
+      - master'?s (degree|program|scholarship)|\bmba\b
+  - motivo: só para ONGs ou organizações
+    peso: -4
+    termos:
+      - registered (ngo|nonprofit|charity)
+      - civil society organi[sz]ations?
+      - 501\(c\)
+  - motivo: vaga de emprego
+    peso: -6
+    termos:
+      - job (vacancy|opening|posting)|we are hiring
+      - (assistant|associate) professor|lecturer|tenure[- ]track
+      - full[- ]time (position|role|job)
+      - (program|project|communications|finance) (manager|officer|coordinator)
+  - motivo: pós-doc
+    peso: -3
+    exceto: \bph\.?d (students?|candidates?)|doctoral (students?|candidates?)|doutorand
+    termos:
+      - postdoc(toral)? (fellowship|position|researcher)

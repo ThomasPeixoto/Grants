@@ -1,0 +1,80 @@
+# Fontes lidas todo dia.
+#   bonus:    pontos somados a todo item da fonte (fontes temáticas ganham mais)
+#   tematica: true dispensa a exigência de termo de ecologia ou IA
+#   ativo:    false desliga a fonte sem apagá-la
+
+rss:
+  # Agregadores gerais (muito volume, o filtro faz o trabalho)
+  - nome: Terra Viva Grants
+    url: https://www.terravivagrants.org/feed/
+    bonus: 1
+  - nome: fundsforNGOs
+    url: https://www2.fundsforngos.org/feed/
+  - nome: ProFellow
+    url: https://www.profellow.com/feed/
+  - nome: Opportunity Desk (fellowships)
+    url: https://opportunitydesk.org/category/fellowships/feed/
+  - nome: Opportunity Desk (grants)
+    url: https://opportunitydesk.org/category/grants/feed/
+  - nome: Scholars4Dev
+    url: https://www.scholars4dev.com/feed/
+  - nome: Scholars4Dev (doutorado)
+    url: https://www.scholars4dev.com/category/level-of-study/phd-scholarships/feed/
+  - nome: Opportunities Corners
+    url: https://www.opportunitiescorners.com/feed/
+  - nome: Opportunities for Africans
+    url: https://www.opportunitiesforafricans.com/feed/
+    bonus: -1
+  - nome: Mitacs
+    url: https://www.mitacs.ca/feed/
+
+  # Financiadores de ecologia e conservação (tudo que publicam é do tema)
+  - nome: Save Our Seas Foundation
+    url: https://saveourseas.com/feed/
+    bonus: 3
+    tematica: true
+  - nome: Mohamed bin Zayed Species Conservation Fund
+    url: https://www.speciesconservation.org/feed/
+    bonus: 3
+    tematica: true
+  - nome: Conservation Leadership Programme
+    url: https://www.conservationleadershipprogramme.org/feed/
+    bonus: 3
+    tematica: true
+  - nome: POGO (oceanografia)
+    url: https://pogo-ocean.org/feed/
+    bonus: 3
+    tematica: true
+  - nome: GEO BON (observação da biodiversidade)
+    url: https://www.geobon.org/feed/
+    bonus: 2
+    tematica: true
+
+  # IA aplicada à ciência
+  - nome: Schmidt Sciences
+    url: https://www.schmidtsciences.org/feed/
+    bonus: 1
+
+  # Testada e desligada: o feed é quase todo blog e podcast, sem os editais
+  - nome: Conservation Careers
+    url: https://www.conservation-careers.com/feed/
+    ativo: false
+
+  # Nacionais: desligadas, porque o foco é internacional
+  - nome: Serrapilheira
+    url: https://serrapilheira.org/feed/
+    ativo: false
+
+daad:
+  ativo: true
+  origem: 48                 # Brasil, no banco do DAAD
+  status: [4]                # 4 = doutorandos
+  areas: [C, E]              # C = ciências naturais/matemática; E = agrárias, florestais e veterinária
+  bonus: 2
+  # Programas do DAAD precisam ter tema de ecologia ou IA, exceto os de estadia
+  # curta e cotutela, que são o formato sanduíche e servem para qualquer área.
+  tematica_se_titulo: short-term|bi-national|cotutelle|research stay|exchange|mobility|visiting|GROW
+
+# Quantas páginas de anúncio, no máximo, baixar por execução
+# para procurar o prazo quando o feed não traz a data.
+max_paginas_por_execucao: 40

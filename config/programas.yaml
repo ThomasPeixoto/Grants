@@ -1,0 +1,130 @@
+# Programas recorrentes que não publicam feed.
+# Com `monitorar: true`, o radar baixa a página todo dia e avisa quando as datas
+# ou as frases sobre inscrição mudam. Com `false` (site que bloqueia robôs),
+# o programa aparece só como link fixo no site.
+#
+# tipo: sanduiche | pesquisa | equipamento | bolsa
+
+programas:
+  # --- Sanduíche e estadias de pesquisa no exterior ---
+  - nome: Swiss Government Excellence Scholarships
+    url: https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships
+    tipo: sanduiche
+    nota: Research fellowship na Suíça para doutorandos estrangeiros.
+    monitorar: true
+  - nome: ELAP (Emerging Leaders in the Americas, Canadá)
+    url: https://www.educanada.ca/scholarships-bourses/can/institutions/elap-pfla.aspx?lang=eng
+    tipo: sanduiche
+    nota: Intercâmbio curto no Canadá para pós-graduandos da América Latina; quem se inscreve é a universidade canadense.
+    monitorar: true
+  - nome: Mitacs Globalink Research Award
+    url: https://www.mitacs.ca/our-programs/globalink-research-award/
+    tipo: sanduiche
+    nota: Estadia de pesquisa no Canadá; a elegibilidade depende de acordos com o país de origem.
+    monitorar: true
+  - nome: EMBO Scientific Exchange Grants
+    url: https://www.embo.org/funding/fellowships-grants-and-career-support/scientific-exchange-grants/
+    tipo: sanduiche
+    nota: Visita curta a outro laboratório, em ciências da vida.
+    monitorar: true
+  - nome: Company of Biologists – Travelling Fellowships
+    url: https://www.biologists.com/grants/travelling-fellowships/
+    tipo: sanduiche
+    nota: Ajuda de custo para doutorandos e pós-docs visitarem outro laboratório.
+    monitorar: true
+  - nome: POGO – capacitação em oceanografia
+    url: https://pogo-ocean.org/capacity-development/
+    tipo: sanduiche
+    nota: Visiting fellowships e cursos para oceanógrafos de países em desenvolvimento.
+    monitorar: true
+  - nome: Fulbright Brasil
+    url: https://fulbright.org.br/
+    tipo: sanduiche
+    nota: Doutorado sanduíche nos EUA (comissão binacional).
+    monitorar: false
+  - nome: Smithsonian Tropical Research Institute – bolsas
+    url: https://stri.si.edu/academic-programs
+    tipo: sanduiche
+    nota: Bolsas curtas para pesquisa tropical no Panamá.
+    monitorar: false
+  - nome: Erasmus+ (estudantes)
+    url: https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/studying-abroad
+    tipo: sanduiche
+    nota: Depende de acordo entre a sua universidade e uma europeia.
+    monitorar: false
+
+  # --- Financiamento de pesquisa e campo ---
+  - nome: Rufford Small Grants
+    url: https://www.rufford.org/
+    tipo: pesquisa
+    nota: Small grants para conservação em países em desenvolvimento.
+    monitorar: true
+  - nome: EDGE Fellowship
+    url: https://www.edgeofexistence.org/2027-edge-fellowship/
+    tipo: pesquisa
+    nota: Fellowship para jovens conservacionistas trabalharem com uma espécie EDGE.
+    monitorar: true
+  - nome: Conservation Leadership Programme – Future Conservationist Award
+    url: https://www.conservationleadershipprogramme.org/awards-opportunities/team-awards/future-conservationist-award/
+    tipo: pesquisa
+    nota: Financiamento para equipes de conservação em início de carreira.
+    monitorar: true
+  - nome: Save Our Seas Foundation – grants
+    url: https://saveourseas.com/grants/funding-applications/
+    tipo: pesquisa
+    nota: Small grants e keystone grants para tubarões, raias e ambientes marinhos.
+    monitorar: true
+  - nome: Sigma Xi Grants in Aid of Research
+    url: https://www.sigmaxi.org/programs/grants-in-aid-of-research
+    tipo: pesquisa
+    nota: Auxílio de pesquisa para estudantes.
+    monitorar: true
+  - nome: The Explorers Club – grants
+    url: https://www.explorers.org/grants/
+    tipo: pesquisa
+    nota: Auxílios para expedições e trabalho de campo.
+    monitorar: true
+  - nome: National Geographic Society – grants
+    url: https://www.nationalgeographic.org/society/our-programs/grants/
+    tipo: pesquisa
+    nota: Early Career e Explorer grants.
+    monitorar: false
+  - nome: British Ecological Society – funding
+    url: https://www.britishecologicalsociety.org/funding/
+    tipo: pesquisa
+    nota: Small research grants e auxílios de viagem.
+    monitorar: false
+  - nome: PADI Foundation
+    url: https://www.padifoundation.org/
+    tipo: pesquisa
+    nota: Pesquisa em ambientes aquáticos.
+    monitorar: false
+  - nome: WWF – Russell E. Train Education for Nature
+    url: https://www.worldwildlife.org/initiatives/russell-e-train-education-for-nature
+    tipo: bolsa
+    nota: Bolsas para pós-graduandos de conservação; os países elegíveis mudam a cada ciclo.
+    monitorar: false
+  - nome: GBIF Young Researchers Award
+    url: https://www.gbif.org/young-researchers-award
+    tipo: pesquisa
+    nota: Prêmio para estudantes que usam dados de biodiversidade; a indicação é pelo nó nacional.
+    monitorar: false
+  - nome: WILDLABS (tecnologia para conservação)
+    url: https://wildlabs.net/
+    tipo: pesquisa
+    nota: Comunidade de conservation tech, com editais e prêmios de IA aplicada.
+    monitorar: false
+
+  # --- Equipamento ---
+  - nome: Idea Wild
+    url: https://ideawild.org/
+    tipo: equipamento
+    nota: Doação de equipamento de campo para pesquisa e conservação.
+    monitorar: true
+
+  # --- IA ---
+  - nome: Google PhD Fellowship
+    url: https://research.google/programs-and-events/phd-fellowship/
+    tipo: bolsa
+    nota: Bolsa para doutorandos em computação; a indicação é feita pela universidade.
+    monitorar: true

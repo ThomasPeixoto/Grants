@@ -1,0 +1,58 @@
+name: Radar diário
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # 07:00 em Brasília
+  workflow_dispatch:        # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write   # gravar data/ de volta no repositório
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt pytest
+
+      - name: Testes
+        run: python -m pytest -q tests
+
+      - name: Rodar o radar
+        env:
+          EMAIL_REMETENTE: ${{ secrets.EMAIL_REMETENTE }}
+          EMAIL_SENHA_APP: ${{ secrets.EMAIL_SENHA_APP }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+          URL_SITE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python -m radar
+
+      - name: Guardar o estado (o que já foi visto)
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Atualiza dados de $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: publicar
+        uses: actions/deploy-pages@v4

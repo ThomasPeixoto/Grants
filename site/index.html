@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de oportunidades</title>
+<meta name="description" content="Sanduíche e financiamento internacional em ecologia e IA, atualizado todo dia.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='none' stroke='%231d6b4f' stroke-width='3'/><circle cx='16' cy='16' r='7' fill='none' stroke='%231d6b4f' stroke-width='3'/><circle cx='16' cy='16' r='2.5' fill='%231d6b4f'/></svg>">
+<style>
+:root {
+  --bg: #f5f7f6; --cartao: #ffffff; --texto: #1c2622; --suave: #5b6a63; --linha: #dde4e0;
+  --acento: #1d6b4f; --acento-fundo: #e6f2ec; --alerta: #a3470f; --alerta-fundo: #fbeee4;
+  --destaque: #f1f8f4; --sombra: 0 1px 2px rgba(20, 40, 30, .06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111715; --cartao: #182120; --texto: #e3ebe7; --suave: #98a8a0; --linha: #2a3532;
+    --acento: #5cc199; --acento-fundo: #1d3a2f; --alerta: #f0a36b; --alerta-fundo: #3b2618;
+    --destaque: #1a2a24; --sombra: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111715; --cartao: #182120; --texto: #e3ebe7; --suave: #98a8a0; --linha: #2a3532;
+  --acento: #5cc199; --acento-fundo: #1d3a2f; --alerta: #f0a36b; --alerta-fundo: #3b2618;
+  --destaque: #1a2a24; --sombra: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--texto);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--acento); }
+.pagina { max-width: 880px; margin: 0 auto; padding: 24px 16px 64px; }
+header h1 { margin: 0; font-size: 26px; letter-spacing: -.01em; }
+header p { margin: 4px 0 0; color: var(--suave); font-size: 14px; }
+nav { display: flex; gap: 4px; margin: 20px 0 16px; border-bottom: 1px solid var(--linha); }
+nav button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px;
+  font: inherit; color: var(--suave); cursor: pointer; }
+nav button[aria-selected="true"] { color: var(--texto); border-color: var(--acento); font-weight: 600; }
+.filtros { display: grid; gap: 10px; margin-bottom: 14px; }
+.linha-filtros { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+input[type=search], select { font: inherit; padding: 8px 10px; border: 1px solid var(--linha);
+  border-radius: 6px; background: var(--cartao); color: var(--texto); }
+input[type=search] { flex: 1 1 240px; min-width: 0; }
+.chip { font: inherit; font-size: 13px; padding: 5px 11px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--linha); background: var(--cartao); color: var(--texto); }
+.chip[aria-pressed="true"] { background: var(--acento-fundo); border-color: var(--acento); color: var(--acento); }
+label.marca { font-size: 13px; color: var(--suave); display: inline-flex; gap: 5px; align-items: center; }
+.contagem { font-size: 13px; color: var(--suave); margin: 4px 0 10px; }
+.cartao { background: var(--cartao); border: 1px solid var(--linha); border-radius: 8px;
+  padding: 14px 16px; margin-bottom: 10px; box-shadow: var(--sombra); }
+.cartao.destaque { background: var(--destaque); border-left: 3px solid var(--acento); }
+.cartao h3 { margin: 0; font-size: 16px; line-height: 1.35; }
+.cartao h3 a { text-decoration: none; }
+.cartao h3 a:hover { text-decoration: underline; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 6px; font-size: 13px; color: var(--suave); }
+.etiqueta { font-size: 12px; padding: 1px 8px; border-radius: 4px; background: var(--acento-fundo); color: var(--acento); }
+.etiqueta.novo { background: var(--acento); color: var(--cartao); }
+.prazo.urgente { color: var(--alerta); font-weight: 600; }
+.prazo.encerrado { text-decoration: line-through; }
+.resumo { margin: 8px 0 0; font-size: 14px; }
+details { margin-top: 6px; font-size: 12px; color: var(--suave); }
+summary { cursor: pointer; }
+.acoes { margin-top: 6px; font-size: 12px; }
+.acoes button { font: inherit; background: none; border: 0; padding: 0; color: var(--acento); cursor: pointer; text-decoration: underline; }
+.vazio { padding: 32px; text-align: center; color: var(--suave); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--linha); vertical-align: top; }
+th { font-size: 12px; color: var(--suave); font-weight: 600; }
+.ok { color: var(--acento); } .erro { color: var(--alerta); }
+.secao-titulo { font-size: 15px; margin: 22px 0 8px; }
+.nota { font-size: 13px; color: var(--suave); }
+footer { margin-top: 32px; font-size: 12px; color: var(--suave); }
+@media (max-width: 560px) {
+  .pagina { padding-top: 16px; }
+  header h1 { font-size: 22px; }
+  .esconde-celular { display: none; }
+}
+</style>
+</head>
+<body>
+<div class="pagina">
+  <header>
+    <h1>Radar de oportunidades</h1>
+    <p>Sanduíche e financiamento internacional em ecologia e IA · <span id="atualizado">carregando…</span></p>
+  </header>
+
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-aba="oportunidades">Oportunidades</button>
+    <button role="tab" aria-selected="false" data-aba="programas">Programas recorrentes</button>
+    <button role="tab" aria-selected="false" data-aba="fontes">Fontes</button>
+  </nav>
+
+  <section id="aba-oportunidades">
+    <div class="filtros">
+      <div class="linha-filtros">
+        <input type="search" id="busca" placeholder="Buscar no título, resumo ou fonte" aria-label="Buscar">
+        <select id="ordem" aria-label="Ordenar">
+          <option value="prazo">Prazo mais próximo</option>
+          <option value="pontos">Mais relevantes</option>
+          <option value="recentes">Encontradas por último</option>
+        </select>
+      </div>
+      <div class="linha-filtros" id="tipos"></div>
+      <div class="linha-filtros">
+        <label class="marca"><input type="checkbox" id="so-destaques"> Só destaques</label>
+        <label class="marca"><input type="checkbox" id="so-com-prazo"> Só com prazo</label>
+        <label class="marca"><input type="checkbox" id="encerrados"> Mostrar encerradas</label>
+      </div>
+    </div>
+    <div class="contagem" id="contagem"></div>
+    <div id="lista"></div>
+  </section>
+
+  <section id="aba-programas" hidden>
+    <p class="nota">Programas que abrem todo ano mas não publicam feed. Os marcados como monitorados são
+      verificados diariamente; quando as datas ou as frases sobre inscrição mudam, você recebe um aviso no e-mail.</p>
+    <div id="programas"></div>
+  </section>
+
+  <section id="aba-fontes" hidden>
+    <p class="nota">Situação de cada fonte na última execução.</p>
+    <table><thead><tr><th>Fonte</th><th>Situação</th><th>Itens lidos</th></tr></thead><tbody id="fontes"></tbody></table>
+  </section>
+
+  <footer>Gerado automaticamente. Confira sempre o edital original antes de se candidatar.</footer>
+</div>
+
+<script>
+const TIPOS = { sanduiche: "Sanduíche / estadia", pesquisa: "Financiamento de pesquisa", bolsa: "Bolsa / fellowship",
+  evento: "Curso / evento", equipamento: "Equipamento", outro: "Outros" };
+const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
+const estado = { tipos: new Set(), dados: null };
+
+const ler = (k, padrao) => { try { return JSON.parse(localStorage.getItem(k)) ?? padrao; } catch { return padrao; } };
+const gravar = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const dataBR = iso => iso ? new Date(iso + "T00:00:00").toLocaleDateString("pt-BR") : "";
+const diasAte = iso => Math.round((new Date(iso + "T00:00:00") - hoje) / 864e5);
+
+function textoPrazo(o) {
+  if (o.prazo) {
+    const d = diasAte(o.prazo);
+    const quando = d < 0 ? "encerrado" : d === 0 ? "hoje" : d === 1 ? "amanhã" : `em ${d} dias`;
+    const classe = d < 0 ? "encerrado" : d <= 14 ? "urgente" : "";
+    return `<span class="prazo ${classe}">Prazo ${dataBR(o.prazo)} (${quando})</span>`;
+  }
+  return `<span class="prazo">${o.prazo_rotulo ? "Prazo " + esc(o.prazo_rotulo) : "Prazo não identificado"}</span>`;
+}
+
+function ics(o) {
+  const d = o.prazo.replaceAll("-", "");
+  const corpo = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//radar-oportunidades//PT", "BEGIN:VEVENT",
+    `UID:${o.id}@radar`, `DTSTART;VALUE=DATE:${d}`, `SUMMARY:Prazo: ${o.titulo.replace(/[,;]/g, " ")}`,
+    `URL:${o.url}`, `DESCRIPTION:${o.url}`, "BEGIN:VALARM", "TRIGGER:-P7D", "ACTION:DISPLAY",
+    "DESCRIPTION:Prazo em 7 dias", "END:VALARM", "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([corpo], { type: "text/calendar" }));
+  a.download = "prazo-" + o.id + ".ics"; a.click();
+}
+
+function cartao(o) {
+  const novo = diasAte(o.encontrado) >= -2;
+  const motivos = (o.motivos || []).filter(m => !m.startsWith("fonte")).join(" · ");
+  return `<article class="cartao ${o.destaque ? "destaque" : ""}">
+    <h3><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.titulo)}</a></h3>
+    <div class="meta">
+      ${novo ? '<span class="etiqueta novo">novo</span>' : ""}
+      <span class="etiqueta">${TIPOS[o.tipo] || esc(o.tipo)}</span>
+      ${textoPrazo(o)}
+      <span>${esc((o.fontes || []).join(", "))}</span>
+      <span class="esconde-celular">encontrado em ${dataBR(o.encontrado)}</span>
+    </div>
+    ${o.resumo ? `<p class="resumo">${esc(o.resumo.slice(0, 320))}${o.resumo.length > 320 ? "…" : ""}</p>` : ""}
+    <details><summary>Por que apareceu (${o.pontos} pontos)</summary>${esc(motivos)}</details>
+    ${o.prazo && diasAte(o.prazo) >= 0 ? `<div class="acoes"><button data-ics="${esc(o.id)}">Adicionar prazo ao calendário</button></div>` : ""}
+  </article>`;
+}
+
+function renderizar() {
+  const d = estado.dados; if (!d) return;
+  const busca = document.getElementById("busca").value.trim().toLowerCase();
+  const soDestaques = document.getElementById("so-destaques").checked;
+  const soComPrazo = document.getElementById("so-com-prazo").checked;
+  const encerrados = document.getElementById("encerrados").checked;
+  const ordem = document.getElementById("ordem").value;
+  gravar("radar-filtros", { ordem, soDestaques, soComPrazo, encerrados, tipos: [...estado.tipos] });
+
+  let itens = d.oportunidades.filter(o =>
+    (!estado.tipos.size || estado.tipos.has(o.tipo)) &&
+    (!soDestaques || o.destaque) &&
+    (!soComPrazo || o.prazo) &&
+    (encerrados || !o.prazo || diasAte(o.prazo) >= 0) &&
+    (!busca || [o.titulo, o.resumo, ...(o.fontes || [])].join(" ").toLowerCase().includes(busca)));
+
+  const porPrazo = (a, b) => (a.prazo || "9999") < (b.prazo || "9999") ? -1 : (a.prazo || "9999") > (b.prazo || "9999") ? 1 : b.pontos - a.pontos;
+  itens.sort(ordem === "prazo" ? porPrazo : ordem === "pontos" ? (a, b) => b.pontos - a.pontos
+    : (a, b) => b.encontrado.localeCompare(a.encontrado) || b.pontos - a.pontos);
+
+  document.getElementById("contagem").textContent =
+    `${itens.length} de ${d.oportunidades.length} oportunidade${d.oportunidades.length === 1 ? "" : "s"}`;
+  document.getElementById("lista").innerHTML = itens.length ? itens.map(cartao).join("")
+    : '<div class="vazio">Nenhuma oportunidade com esses filtros.</div>';
+}
+
+function renderizarProgramas(programas) {
+  const grupos = {};
+  programas.forEach(p => (grupos[p.tipo] ??= []).push(p));
+  document.getElementById("programas").innerHTML = Object.entries(grupos).map(([tipo, lista]) => `
+    <h2 class="secao-titulo">${TIPOS[tipo] || esc(tipo)}</h2>
+    ${lista.map(p => {
+      const futuras = (p.datas || []).filter(x => diasAte(x) >= 0).slice(0, 3).map(dataBR).join(", ");
+      const situacao = !p.monitorar ? "link fixo (o site bloqueia robôs)"
+        : p.status === "ok" ? `monitorado · verificado em ${dataBR(p.verificado)}${p.mudou ? ` · <strong>mudou em ${dataBR(p.mudou)}</strong>` : ""}`
+        : `monitorado · última tentativa: ${esc(p.status || "ainda não verificado")}`;
+      return `<article class="cartao">
+        <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.nome)}</a></h3>
+        <p class="resumo">${esc(p.nota)}</p>
+        <div class="meta"><span>${situacao}</span>${futuras ? `<span>datas na página: ${futuras}</span>` : ""}</div>
+      </article>`;
+    }).join("")}`).join("");
+}
+
+function renderizarFontes(fontes) {
+  document.getElementById("fontes").innerHTML = Object.entries(fontes).map(([nome, s]) => `
+    <tr><td>${esc(nome)}</td>
+    <td class="${s.status === "ok" ? "ok" : "erro"}">${s.status === "ok" ? "ok" : "erro: " + esc(s.erro)}</td>
+    <td>${s.itens ?? "–"}</td></tr>`).join("");
+}
+
+function montarTipos() {
+  const presentes = [...new Set(estado.dados.oportunidades.map(o => o.tipo))];
+  const caixa = document.getElementById("tipos");
+  caixa.innerHTML = Object.keys(TIPOS).filter(t => presentes.includes(t)).map(t =>
+    `<button class="chip" data-tipo="${t}" aria-pressed="${estado.tipos.has(t)}">${TIPOS[t]}</button>`).join("");
+  caixa.onclick = e => {
+    const b = e.target.closest("[data-tipo]"); if (!b) return;
+    const t = b.dataset.tipo;
+    estado.tipos.has(t) ? estado.tipos.delete(t) : estado.tipos.add(t);
+    b.setAttribute("aria-pressed", estado.tipos.has(t));
+    renderizar();
+  };
+}
+
+document.querySelector("nav").onclick = e => {
+  const b = e.target.closest("[data-aba]"); if (!b) return;
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b));
+  document.querySelectorAll("section[id^=aba-]").forEach(s => s.hidden = s.id !== "aba-" + b.dataset.aba);
+};
+["busca", "ordem", "so-destaques", "so-com-prazo", "encerrados"].forEach(id =>
+  document.getElementById(id).addEventListener("input", renderizar));
+document.getElementById("lista").addEventListener("click", e => {
+  const b = e.target.closest("[data-ics]"); if (!b) return;
+  ics(estado.dados.oportunidades.find(o => o.id === b.dataset.ics));
+});
+
+const salvos = ler("radar-filtros", {});
+if (salvos.ordem) document.getElementById("ordem").value = salvos.ordem;
+["soDestaques:so-destaques", "soComPrazo:so-com-prazo", "encerrados:encerrados"].forEach(par => {
+  const [k, id] = par.split(":"); document.getElementById(id).checked = !!salvos[k];
+});
+(salvos.tipos || []).forEach(t => estado.tipos.add(t));
+
+fetch("dados.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+  estado.dados = d;
+  document.getElementById("atualizado").textContent =
+    "atualizado em " + new Date(d.gerado).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+  montarTipos(); renderizar(); renderizarProgramas(d.programas); renderizarFontes(d.fontes);
+}).catch(() => {
+  document.getElementById("atualizado").textContent = "não foi possível carregar os dados";
+  document.getElementById("lista").innerHTML = '<div class="vazio">dados.json não encontrado. Rode <code>python -m radar</code> primeiro.</div>';
+});
+</script>
+</body>
+</html>

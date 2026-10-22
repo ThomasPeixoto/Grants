@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# gerados a cada execução; o site é publicado pelo GitHub Actions
+site/dados.json
+site/previa-email.html
