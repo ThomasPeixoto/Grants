@@ -1,0 +1,73 @@
+{
+ "atualizado": "2026-10-22",
+ "fontes": {
+  "Conservation Leadership Programme": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "DAAD": {
+   "itens": 42,
+   "status": "ok"
+  },
+  "GEO BON (observação da biodiversidade)": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Mitacs": {
+   "itens": 12,
+   "status": "ok"
+  },
+  "Mohamed bin Zayed Species Conservation Fund": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Opportunities Corners": {
+   "itens": 6,
+   "status": "ok"
+  },
+  "Opportunities for Africans": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Opportunity Desk (fellowships)": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Opportunity Desk (grants)": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "POGO (oceanografia)": {
+   "itens": 17,
+   "status": "ok"
+  },
+  "ProFellow": {
+   "itens": 12,
+   "status": "ok"
+  },
+  "Save Our Seas Foundation": {
+   "itens": 15,
+   "status": "ok"
+  },
+  "Schmidt Sciences": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Scholars4Dev": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Scholars4Dev (doutorado)": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "Terra Viva Grants": {
+   "itens": 10,
+   "status": "ok"
+  },
+  "fundsforNGOs": {
+   "itens": 25,
+   "status": "ok"
+  }
+ }
+}
