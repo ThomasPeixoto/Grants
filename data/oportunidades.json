@@ -1,5 +1,44 @@
 [
  {
+  "destaque": false,
+  "encontrado": "2026-10-26",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "c96d9936fc58cd6e",
+  "motivos": [
+   "ecologia: conservation, species"
+  ],
+  "pontos": 6,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-10-26",
+  "resumo": "Explore current funding opportunities offered by the Government of Ontario, designed to support a variety of sectors, including law enforcement, sports, transportation, environmental initiatives, and forest sector innovation. Each grant has specific eligibility criteria, objectives, and deadlines. The post Request for Applications: Species Conservation Program (Canada) first appeared on fundsforNGOs .",
+  "tipo": "outro",
+  "titulo": "Request for Applications: Species Conservation Program (Canada)",
+  "url": "https://www2.fundsforngos.org/individuals/request-for-applications-species-conservation-program-canada/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-10-26",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "c828b41327003b03",
+  "motivos": [
+   "ecologia: ocean",
+   "financiamento: research grant"
+  ],
+  "pontos": 5,
+  "prazo": "2026-11-30",
+  "prazo_rotulo": "",
+  "publicado": "2026-10-26",
+  "resumo": "The French-Australian Antarctic Research Grant 2026, offered by the Embassy of France, Monash University, and CNRS Oceania, is now accepting proposals for collaborative research activities in Antarctica and the Southern Ocean. This grant aims to strengthen scientific collaboration between Australia and France. Applications are due by 30 November 2026. The post RFAs: French-Australian Antarctic Research Grant Program ",
+  "tipo": "pesquisa",
+  "titulo": "RFAs: French-Australian Antarctic Research Grant Program",
+  "url": "https://www2.fundsforngos.org/cat/french-australian-antarctic-research-grant-2026-collaborative/"
+ },
+ {
   "destaque": true,
   "encontrado": "2026-10-24",
   "fontes": [
