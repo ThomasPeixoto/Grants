@@ -1,6 +1,66 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-10-27",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "b9dfa9e182a6d980",
+  "motivos": [
+   "ecologia: ecosystem",
+   "financiamento: research grant"
+  ],
+  "pontos": 5,
+  "prazo": "2026-11-02",
+  "prazo_rotulo": "",
+  "publicado": "2026-10-27",
+  "resumo": "The 2026 Labfront x Garmin Health Research Grant supports researchers globally in exploring screenless wearable health technology through the Garmin Health Connected Ecosystem. This initiative aims to advance health and wellness insights using continuous physiological data. The application deadline is 2 November 2026. The post RFPs: Labfront x Garmin Health Research Grant Program first appeared on fundsforNGOs .",
+  "tipo": "pesquisa",
+  "titulo": "RFPs: Labfront x Garmin Health Research Grant Program",
+  "url": "https://www2.fundsforngos.org/individuals/rfps-labfront-x-garmin-health-research-grant-program/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-10-27",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "160edc8e8b31143c",
+  "motivos": [
+   "ia: ai",
+   "financiamento: fellowship"
+  ],
+  "pontos": 5,
+  "prazo": "2026-11-07",
+  "prazo_rotulo": "",
+  "publicado": "2026-10-27",
+  "resumo": "The HP-UCL IOE Fellowship in AI in Education is a prestigious global program designed to empower senior education leaders with the strategic knowledge and governance skills required to lead AI transformation in education systems responsibly. Offered by the UCL Institute of Education and HP, this fellowship supports leaders in designing ethical AI strategies for educational settings. Applications are open until 7 Nove",
+  "tipo": "bolsa",
+  "titulo": "Applications Open for HP-UCL IOE Fellowship in AI in Education",
+  "url": "https://www2.fundsforngos.org/leadership/applications-open-for-hp-ucl-ioe-fellowship-in-ai-in-education/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-10-27",
+  "fontes": [
+   "Opportunity Desk (grants)"
+  ],
+  "id": "ab90ceb0abfc64a0",
+  "motivos": [
+   "ecologia: ecosystem",
+   "financiamento: research grants"
+  ],
+  "pontos": 5,
+  "prazo": "2027-01-16",
+  "prazo_rotulo": "",
+  "publicado": "2026-10-27",
+  "resumo": "Deadline: January 16, 2027 Applications are open for the CODESRIA Research Grants on University Ecosystems 2027. With funding support from the Andrew Carnegie Foundation, this current call is seeking proposals from researchers in African universities and research institutions to undertake interventions revolving around higher education, gender, academic freedom and the quality of associational life in [...]",
+  "tipo": "pesquisa",
+  "titulo": "CODESRIA Research Grants on University Ecosystems 2027",
+  "url": "https://opportunitydesk.org/2026/10/27/codesria-research-grants-on-university-ecosystems-2027/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-10-26",
   "fontes": [
    "fundsforNGOs"
