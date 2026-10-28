@@ -1,13 +1,13 @@
 {
- "atualizado": "2026-10-27",
+ "atualizado": "2026-10-28",
  "fontes": {
   "Conservation Leadership Programme": {
-   "itens": 10,
-   "status": "ok"
+   "erro": "HTTP 202",
+   "status": "erro"
   },
   "DAAD": {
-   "erro": "DAAD scholarships.js: sem resposta",
-   "status": "erro"
+   "itens": 42,
+   "status": "ok"
   },
   "GEO BON (observação da biodiversidade)": {
    "itens": 10,
@@ -42,7 +42,7 @@
    "status": "ok"
   },
   "ProFellow": {
-   "itens": 12,
+   "itens": 0,
    "status": "ok"
   },
   "Save Our Seas Foundation": {
