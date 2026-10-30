@@ -1,6 +1,25 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-10-30",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "4a474af08a25ae66",
+  "motivos": [
+   "ecologia: wildlife, species"
+  ],
+  "pontos": 6,
+  "prazo": "2026-11-15",
+  "prazo_rotulo": "",
+  "publicado": "2026-10-30",
+  "resumo": "The Avangrid Foundation's Wildlife Rehabilitation Program offers grants to wildlife rehabilitation centers to support their operations and enhance community outreach. This initiative, in partnership with Avangrid's family of companies, has funded over $1.2 million since 2016 to aid various wildlife species. Applications are open for eligible organizations, with a submission deadline on 15 November 2026. The post Call",
+  "tipo": "outro",
+  "titulo": "Call for Applications: Wildlife Rehabilitation Program (United States)",
+  "url": "https://www2.fundsforngos.org/community-development-2/call-for-applications-wildlife-rehabilitation-program-united-states/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-10-27",
   "fontes": [
    "fundsforNGOs"
