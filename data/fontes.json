@@ -1,13 +1,13 @@
 {
- "atualizado": "2026-10-30",
+ "atualizado": "2026-10-31",
  "fontes": {
   "Conservation Leadership Programme": {
    "itens": 10,
    "status": "ok"
   },
   "DAAD": {
-   "erro": "DAAD scholarships.js: sem resposta",
-   "status": "erro"
+   "itens": 42,
+   "status": "ok"
   },
   "GEO BON (observação da biodiversidade)": {
    "itens": 10,
@@ -30,8 +30,8 @@
    "status": "ok"
   },
   "Opportunity Desk (fellowships)": {
-   "itens": 10,
-   "status": "ok"
+   "erro": "HTTP sem resposta",
+   "status": "erro"
   },
   "Opportunity Desk (grants)": {
    "itens": 10,
@@ -42,7 +42,7 @@
    "status": "ok"
   },
   "ProFellow": {
-   "itens": 0,
+   "itens": 12,
    "status": "ok"
   },
   "Save Our Seas Foundation": {
