@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-31",
+ "atualizado": "2026-11-01",
  "fontes": {
   "Conservation Leadership Programme": {
    "itens": 10,
@@ -10,8 +10,8 @@
    "status": "ok"
   },
   "GEO BON (observação da biodiversidade)": {
-   "itens": 10,
-   "status": "ok"
+   "erro": "HTTP sem resposta",
+   "status": "erro"
   },
   "Mitacs": {
    "itens": 12,
@@ -30,8 +30,8 @@
    "status": "ok"
   },
   "Opportunity Desk (fellowships)": {
-   "erro": "HTTP sem resposta",
-   "status": "erro"
+   "itens": 10,
+   "status": "ok"
   },
   "Opportunity Desk (grants)": {
    "itens": 10,
@@ -42,7 +42,7 @@
    "status": "ok"
   },
   "ProFellow": {
-   "itens": 12,
+   "itens": 0,
    "status": "ok"
   },
   "Save Our Seas Foundation": {

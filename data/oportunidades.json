@@ -1,6 +1,114 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-01",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "6eeaaa19f647babf",
+  "motivos": [
+   "fonte +1",
+   "ecologia: biodivers, fishes",
+   "financiamento: small grants"
+  ],
+  "pontos": 9,
+  "prazo": "2026-11-09",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-01",
+  "resumo": "The Freshwater Biodiversity Information System for Africa (FBIS Africa) offers small grants of US$5,000 to US$10,000 to publish existing African freshwater biodiversity data that is not yet on GBIF. Funds cover data collation and digitisation, cleaning and quality control, georeferencing, metadata preparation and formatting. Eligible data holders include universities, research institutions, museums, government agenci",
+  "tipo": "pesquisa",
+  "titulo": "Freshwater Biodiversity Information System for Africa — Small Grants",
+  "url": "https://www.terravivagrants.org/freshwater-biodiversity-information-system-for-africa-small-grants/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-01",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "8f50959e7b14496e",
+  "motivos": [
+   "fonte +1",
+   "ecologia: biodivers",
+   "etapa: doctoral",
+   "financiamento: fellowship, scholarships",
+   "elegibilidade: developing countr",
+   "pós-doc (-3)"
+  ],
+  "pontos": 9,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-01",
+  "resumo": "The University of Turku offers up to 10 three-year research positions in Finland, open to researchers from any discipline within the university’s five faculties (including Biodiversity and Sustainability). Candidates must have a PhD completed within the last eight years and meet the MSCA mobility rule (not having lived in Finland for more than 12 of ... Read more The post University of Turku — Postdoctoral Fellowship",
+  "tipo": "bolsa",
+  "titulo": "University of Turku — Postdoctoral Fellowship",
+  "url": "https://www.terravivagrants.org/university-of-turku-postdoctoral-fellowship/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-01",
+  "fontes": [
+   "Opportunities Corners"
+  ],
+  "id": "16302efa10be1ffb",
+  "motivos": [
+   "ia: ai",
+   "etapa: early-career",
+   "financiamento: fellowship",
+   "elegibilidade: international applicants"
+  ],
+  "pontos": 9,
+  "prazo": "2026-11-22",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-01",
+  "resumo": "Would you like to spend the summer of 2027 in the UK? Applications are now open for the GovAI Summer Fellowship 2027 in London, a fully funded three-month program running from June 7 to August 27. The fellowship is open to global applicants, targeting early-career individuals and professionals new to AI governance. Participants will join […] The post GovAI Summer Fellowship 2027 in London (Fully Funded) appeared firs",
+  "tipo": "bolsa",
+  "titulo": "GovAI Summer Fellowship 2027 in London (Fully Funded)",
+  "url": "https://opportunitiescorners.com/govai-summer-fellowship-2027-in-london/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-01",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "6542eda4baf0db64",
+  "motivos": [
+   "fonte +1",
+   "ecologia: biodivers, ecosystem"
+  ],
+  "pontos": 7,
+  "prazo": "2026-11-16",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-01",
+  "resumo": "The Global EbA Fund invites proposals that address systemic barriers to scaling ecosystem-based adaptation and strengthen the enabling environment for its uptake and investment. Projects can unlock private capital and blended finance for EbA, integrate EbA into security frameworks in fragile and conflict-affected contexts, or link biodiversity, land, climate and disaster risk reduction commitments into ... Read more ",
+  "tipo": "outro",
+  "titulo": "Global EbA Fund — Medium-Size Grants",
+  "url": "https://www.terravivagrants.org/global-eba-fund-medium-size-grants/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-01",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "fba2b2507e1f3d42",
+  "motivos": [
+   "fonte +1",
+   "ecologia: conservation",
+   "financiamento: fellowship"
+  ],
+  "pontos": 6,
+  "prazo": "2026-11-23",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-01",
+  "resumo": "The International Blue Carbon Institute (IBCI) at Conservation International awards one fellow US$60,000 to support new or existing blue carbon work on mangroves, salt marshes, seagrasses or kelp forests. Funds can cover supplementary research costs, lab travel, equipment, publication fees and field assistants. Fellows may also receive funding to attend the annual International Blue Carbon ... Read more The post Cons",
+  "tipo": "bolsa",
+  "titulo": "Conservation International — International Blue Carbon Institute Fellowship",
+  "url": "https://www.terravivagrants.org/international-blue-carbon-institute-fellowship/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-10-30",
   "fontes": [
    "fundsforNGOs"
