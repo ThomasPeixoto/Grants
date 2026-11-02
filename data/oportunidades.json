@@ -1,6 +1,26 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-02",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "5f390a4a87684dbc",
+  "motivos": [
+   "ecologia: biodivers",
+   "financiamento: research grant"
+  ],
+  "pontos": 5,
+  "prazo": "2026-11-30",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-02",
+  "resumo": "The Research Grant Competition 4 (RGC4) is an initiative by the Global Challenges Biodiversity Centre (GCBC) to fund projects that address biodiversity loss in critical regions. This competition invites concept notes for innovative research projects aligned with its theme: \"Enabling transformative change: addressing drivers of biodiversity loss in three critical regions.\" The deadline for concept notes is 12:00 noon ",
+  "tipo": "pesquisa",
+  "titulo": "Open Call for Research Grant Competition 4",
+  "url": "https://www2.fundsforngos.org/innovation/open-call-for-research-grant-competition-4/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-01",
   "fontes": [
    "Terra Viva Grants"
