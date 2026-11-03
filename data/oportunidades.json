@@ -1,6 +1,28 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-03",
+  "fontes": [
+   "Schmidt Sciences"
+  ],
+  "id": "8d1298bb4fabe308",
+  "motivos": [
+   "fonte +1",
+   "ia: ai",
+   "etapa: doctoral, early-career",
+   "pós-doc (-3)"
+  ],
+  "pontos": 5,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-03",
+  "resumo": "Five early-career researchers to receive up to $12.5 million to lead open, collaborative astrophysics research that will explore the universe Contact: Carlie Wiener – cwiener@schmidtsciences.org FLORENCE, ITALY—Five early-career scientists will receive a total of up to $12.5 million as the first winners of Schmidt Sciences’ new FirstLight Awards, which honor researchers pursuing groundbreaking discoveries centered […",
+  "tipo": "evento",
+  "titulo": "Exploding Stars, Missing Galaxies and Distant Worlds: Inaugural FirstLight Awards Cutting-Edge Science with Access to New Schmidt Observatory System",
+  "url": "https://www.schmidtsciences.org/firstlight2026/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-02",
   "fontes": [
    "fundsforNGOs"
