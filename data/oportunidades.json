@@ -1,6 +1,46 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-05",
+  "fontes": [
+   "Opportunity Desk (fellowships)"
+  ],
+  "id": "b4fcc101536fe4c1",
+  "motivos": [
+   "ia: ai",
+   "financiamento: fellowship"
+  ],
+  "pontos": 5,
+  "prazo": "2026-11-30",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-04",
+  "resumo": "Deadline: November 30, 2026 Applications for the EDSAFE AI Fellowship 2027 are now open. The EDSAFE AI Fellowship is a leadership development program designed to connect and empower underrepresented thought leaders in artificial intelligence (AI) in education. Through interactive workshops, mentorship, and a collaborative capstone project, Fellows gain a deeper understanding of AI’s ethical, safe, [...]",
+  "tipo": "bolsa",
+  "titulo": "EDSAFE AI Fellowship 2027",
+  "url": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-05",
+  "fontes": [
+   "Opportunity Desk (grants)"
+  ],
+  "id": "1b4bde0169663bbc",
+  "motivos": [
+   "ia: ai",
+   "etapa: early career"
+  ],
+  "pontos": 5,
+  "prazo": "2027-01-04",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-05",
+  "resumo": "Deadline: January 4, 2027 Applications are open for the IX-WAI Early Career Development Grant 2027. The I-X Women in AI Network (IX-WAI) provides Early Career Development Grants of up to £1,000 to women and non-binary individuals who are currently working in AI or wish to enter the field. These grants are intended to support conference [...]",
+  "tipo": "evento",
+  "titulo": "IX-WAI Early Career Development Grant 2027 (up to £1,000)",
+  "url": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-03",
   "fontes": [
    "Schmidt Sciences"
