@@ -1,6 +1,26 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-06",
+  "fontes": [
+   "Opportunity Desk (fellowships)"
+  ],
+  "id": "6f2e4fdd375aee4e",
+  "motivos": [
+   "ecologia: conservation, ecosystem",
+   "financiamento: fellowship"
+  ],
+  "pontos": 8,
+  "prazo": "2026-11-23",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-06",
+  "resumo": "Deadline: November 23, 2026 Applications for the International Blue Carbon Institute (IBCI) Fellowship Program 2027 are now open. The International Blue Carbon Institute (IBCI) Fellowship program advances the conservation, restoration, and protection of blue carbon ecosystems for their climate mitigation and adaptation benefits. The program is a cornerstone of the IBCI’s mission to scale global [...]",
+  "tipo": "bolsa",
+  "titulo": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant)",
+  "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-05",
   "fontes": [
    "Opportunity Desk (fellowships)"
