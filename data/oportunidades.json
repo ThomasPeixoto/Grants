@@ -1,5 +1,28 @@
 [
  {
+  "destaque": true,
+  "encontrado": "2026-11-08",
+  "fontes": [
+   "Opportunity Desk (grants)"
+  ],
+  "id": "563dd62bb1539ac8",
+  "motivos": [
+   "ecologia: ecosystem",
+   "ia: ai",
+   "etapa: phd, early career",
+   "financiamento: research grants",
+   "elegibilidade: latin america"
+  ],
+  "pontos": 14,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-07",
+  "resumo": "1. IX-WAI Early Career Development Grant 2027 (up to £1,000)The I-X Women in AI Network Early Career Development Grant supports women and non-binary individuals at Imperial College London who are at Master’s, PhD or postdoctoral level and are interested in artificial intelligence. Grants of up to £1,000 can support conference attendance, workshops, tutorials, training sessions, [...]",
+  "tipo": "evento",
+  "titulo": "10 Grants and Funding Opportunities Currently Open – November 7, 2026",
+  "url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026/"
+ },
+ {
   "destaque": false,
   "encontrado": "2026-11-06",
   "fontes": [
