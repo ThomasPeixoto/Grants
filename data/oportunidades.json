@@ -1,6 +1,51 @@
 [
  {
   "destaque": true,
+  "encontrado": "2026-11-09",
+  "fontes": [
+   "Scholars4Dev"
+  ],
+  "id": "1d329fecb5123c4c",
+  "motivos": [
+   "ecologia: biodivers, wildlife, ecosystem",
+   "ia: artificial intelligence, data science",
+   "etapa: phd, postgraduate",
+   "financiamento: fellowship, scholarship",
+   "elegibilidade: international students"
+  ],
+  "pontos": 25,
+  "prazo": "2026-11-14",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-09",
+  "resumo": "2027 Mastercard Foundation Scholars Program is open to young people, mainly from Africa. Pursue a Bachelor's or Master's degree at partner universities in Africa and around the world. Deadline varies per university. Read more » The post Mastercard Foundation Scholars Program for Africans first appeared on Scholars4DeV . Mastercard Foundation Bachelors/Masters Degree Deadline: Varies per university Study in: Africa, C",
+  "tipo": "bolsa",
+  "titulo": "Mastercard Foundation Scholars Program for Africans",
+  "url": "https://www.scholars4dev.com/mastercard-foundation-scholarship-program-for-africans/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-09",
+  "fontes": [
+   "Opportunities for Africans"
+  ],
+  "id": "1cb5fe10ea1a6217",
+  "motivos": [
+   "fonte -1",
+   "ecologia: ocean",
+   "etapa: phd",
+   "financiamento: scholarship"
+  ],
+  "pontos": 6,
+  "prazo": "2026-11-17",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-09",
+  "resumo": "Application Deadline: November 17, 2026 Applications are now open for the 2027 African Development Bank Group Shanghai Ocean University Scholarship. The African Development Bank Group (AfDB) and the Shanghai Ocean… The post 2027 African Development Bank Group Shanghai Ocean University Scholarship Bachelor, Master’s, and PhD Program (Funded study in Shanghai, China) appeared first on Opportunities For Africans .",
+  "tipo": "bolsa",
+  "titulo": "2027 African Development Bank Group Shanghai Ocean University Scholarship Bachelor, Master’s, and PhD Program (Funded study in Shanghai, China)",
+  "url": "https://www.opportunitiesforafricans.com/2027-african-development-bank-group-shanghai-ocean-university-scholarship-bachelor-masters-and-phd-program/"
+ },
+ {
+  "destaque": true,
   "encontrado": "2026-11-08",
   "fontes": [
    "Opportunity Desk (grants)"
