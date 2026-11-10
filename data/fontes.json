@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09",
+ "atualizado": "2026-11-10",
  "fontes": {
   "Conservation Leadership Programme": {
    "itens": 10,
@@ -66,8 +66,8 @@
    "status": "ok"
   },
   "fundsforNGOs": {
-   "erro": "HTTP sem resposta",
-   "status": "erro"
+   "itens": 25,
+   "status": "ok"
   }
  }
 }
