@@ -1,6 +1,47 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-11",
+  "fontes": [
+   "Opportunity Desk (fellowships)"
+  ],
+  "id": "087113edbef85dec",
+  "motivos": [
+   "ecologia: conservation, wildlife",
+   "financiamento: fellowship"
+  ],
+  "pontos": 8,
+  "prazo": "2026-12-14",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-11",
+  "resumo": "Deadline: December 14, 2026 Applications are open for the African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027. The AWF Geospatial Leaders Fellowship is a ten-month Pan-African programme that brings together mid-level conservation GIS professionals from NGOs, government agencies, research institutions and community-based organisations who are passionate about using spatial data to protect Africa’s wil",
+  "tipo": "bolsa",
+  "titulo": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027",
+  "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-11",
+  "fontes": [
+   "Mitacs"
+  ],
+  "id": "cc9fe67eac38f2eb",
+  "motivos": [
+   "ecologia: ecosystem",
+   "etapa: phd",
+   "elegibilidade: worldwide"
+  ],
+  "pontos": 7,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-10",
+  "resumo": "Berlin, Germany — Mitacs and the Leibniz Association have signed a three-year Letter of Intent to strengthen research collaboration between Canada and Germany and promote international mobility for PhD students and researchers. The agreement affirms each party’s desire to promote researcher mobility through their respective programming. The collaboration will encourage stronger connections between Canadian universiti",
+  "tipo": "sanduiche",
+  "titulo": "Mitacs–Leibniz Association partnership expands opportunities for Canadian and German researchers",
+  "url": "https://www.mitacs.ca/news/mitacs-leibniz-association-partnership-expands-opportunities-for-canadian-and-german-researchers/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-10",
   "fontes": [
    "Opportunities for Africans"
