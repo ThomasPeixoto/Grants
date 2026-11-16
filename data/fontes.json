@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-15",
+ "atualizado": "2026-11-16",
  "fontes": {
   "Conservation Leadership Programme": {
-   "itens": 10,
-   "status": "ok"
+   "erro": "HTTP 202",
+   "status": "erro"
   },
   "DAAD": {
    "erro": "DAAD scholarships.js: sem resposta",
