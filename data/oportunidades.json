@@ -1,6 +1,28 @@
 [
  {
   "destaque": true,
+  "encontrado": "2026-11-18",
+  "fontes": [
+   "Opportunity Desk (fellowships)"
+  ],
+  "id": "8da4a7fca4429984",
+  "motivos": [
+   "ecologia: ecosystem",
+   "ia: ai",
+   "etapa: doctoral, research stay",
+   "financiamento: fellowship"
+  ],
+  "pontos": 12,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-17",
+  "resumo": "Deadline: Unspecified Applications are open for the DAAD Heilbronn AI Fellowship 2027. The Heilbronn AI Fellowship attracts outstanding international postdoctoral researchers to Heilbronn’s rapidly growing AI ecosystem. The programme supports cutting-edge AI research at institutions on the Bildungscampus Heilbronn and across the broader innovation network. Fellows benefit from a unique environment that combines acade",
+  "tipo": "bolsa",
+  "titulo": "DAAD Heilbronn AI Fellowship 2027 (Funded)",
+  "url": "https://opportunitydesk.org/2026/11/17/daad-heilbronn-ai-fellowship-2027/"
+ },
+ {
+  "destaque": true,
   "encontrado": "2026-11-14",
   "fontes": [
    "Scholars4Dev"
