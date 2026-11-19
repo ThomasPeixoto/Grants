@@ -1,5 +1,68 @@
 [
  {
+  "destaque": false,
+  "encontrado": "2026-11-19",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "9ff6274cd414571b",
+  "motivos": [
+   "fonte +1",
+   "ecologia: conservation, wildlife",
+   "financiamento: fellowship"
+  ],
+  "pontos": 9,
+  "prazo": "2026-12-14",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-19",
+  "resumo": "The African Wildlife Foundation (AWF) accepts applications for the 2027 cohort of its Geospatial Leaders Fellowship, a ten-month Pan-African programme for mid-level conservation GIS professionals working in NGOs, government agencies, research institutions, the private sector and community-based organisations. Fellows take part in virtual sessions, self-paced learning and mentorship check-ins, complete a capstone proj",
+  "tipo": "bolsa",
+  "titulo": "African Wildlife Foundation — Geospatial Leaders Fellowship",
+  "url": "https://www.terravivagrants.org/geospatial-leaders-fellowship/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-19",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "0902a01daf031f93",
+  "motivos": [
+   "fonte +1",
+   "ecologia: ocean",
+   "etapa: early career"
+  ],
+  "pontos": 6,
+  "prazo": "2026-12-14",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-19",
+  "resumo": "The Alexander von Humboldt Foundation accepts applications for its 2027 Humboldt Residency Program, which brings together twelve participants for a six-week residency in Germany on the theme “Oceanic Horizons: The Future of Our Blue Planet.” The group includes five Humboldt alumni, three early career researchers and four civil society practitioners, either creatives such as journalists, ... Read more The post Alexand",
+  "tipo": "outro",
+  "titulo": "Alexander von Humboldt Foundation — Oceanic Horizons Program",
+  "url": "https://www.terravivagrants.org/oceanic-horizons-program/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-19",
+  "fontes": [
+   "Terra Viva Grants"
+  ],
+  "id": "6c01d52161f09cc0",
+  "motivos": [
+   "fonte +1",
+   "ecologia: conservation",
+   "financiamento: research grants"
+  ],
+  "pontos": 6,
+  "prazo": "2026-12-15",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-19",
+  "resumo": "The Seabird Group supports projects on seabirds, covering research, survey, conservation and the promotion of seabirds to the general public. It aims to fund four grants a year, with a maximum of £750 per project. Applications are accepted from any individual or group, with priority given to Seabird Group members working on Atlantic seabirds. Projects ... Read more The post Seabird Group — Research Grants for Seabird",
+  "tipo": "pesquisa",
+  "titulo": "Seabird Group — Research Grants for Seabird Research",
+  "url": "https://www.terravivagrants.org/seabird-group-small-grants/"
+ },
+ {
   "destaque": true,
   "encontrado": "2026-11-18",
   "fontes": [

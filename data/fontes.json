@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-18",
+ "atualizado": "2026-11-19",
  "fontes": {
   "Conservation Leadership Programme": {
-   "itens": 10,
-   "status": "ok"
+   "erro": "HTTP 202",
+   "status": "erro"
   },
   "DAAD": {
    "itens": 42,
@@ -42,7 +42,7 @@
    "status": "ok"
   },
   "ProFellow": {
-   "itens": 12,
+   "itens": 0,
    "status": "ok"
   },
   "Save Our Seas Foundation": {
@@ -66,8 +66,8 @@
    "status": "ok"
   },
   "fundsforNGOs": {
-   "itens": 25,
-   "status": "ok"
+   "erro": "HTTP 403",
+   "status": "erro"
   }
  }
 }
