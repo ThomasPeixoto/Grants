@@ -1,13 +1,13 @@
 {
- "atualizado": "2026-11-21",
+ "atualizado": "2026-11-22",
  "fontes": {
   "Conservation Leadership Programme": {
-   "itens": 10,
-   "status": "ok"
+   "erro": "HTTP 202",
+   "status": "erro"
   },
   "DAAD": {
-   "itens": 42,
-   "status": "ok"
+   "erro": "DAAD scholarships.js: sem resposta",
+   "status": "erro"
   },
   "GEO BON (observação da biodiversidade)": {
    "itens": 10,
@@ -66,8 +66,8 @@
    "status": "ok"
   },
   "fundsforNGOs": {
-   "itens": 25,
-   "status": "ok"
+   "erro": "HTTP 403",
+   "status": "erro"
   }
  }
 }
