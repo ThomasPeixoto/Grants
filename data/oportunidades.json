@@ -1,6 +1,50 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-23",
+  "fontes": [
+   "Scholars4Dev"
+  ],
+  "id": "65cfc482623c5837",
+  "motivos": [
+   "ia: data science",
+   "financiamento: travel grant, scholarships",
+   "elegibilidade: international students"
+  ],
+  "pontos": 9,
+  "prazo": "2027-01-15",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-23",
+  "resumo": "Do you want to study in Sweden? There are a considerable number of scholarships that are being offered by the Swedish Government and Swedish Universities to attract international students like you. Read more » See also 15 Development-related Courses in Sweden with Scholarships The post Top 20+ Scholarships in Sweden for International Students first appeared on Scholars4DeV . ©iStock.com/cofkocof Until 2011, Sweden wa",
+  "tipo": "bolsa",
+  "titulo": "Top 20+ Scholarships in Sweden for International Students",
+  "url": "https://www.scholars4dev.com/scholarships-in-sweden-for-international-students/"
+ },
+ {
+  "destaque": false,
+  "encontrado": "2026-11-23",
+  "fontes": [
+   "Mitacs"
+  ],
+  "id": "dee5801175cb0403",
+  "motivos": [
+   "ecologia: ecosystem",
+   "ia: ai, neural network",
+   "etapa: phd, graduate students",
+   "elegibilidade: worldwide",
+   "vaga de emprego (-6)"
+  ],
+  "pontos": 9,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-23",
+  "resumo": "Ottawa, ON — Ten Canadian innovators will be recognized tonight at the 2026 Mitacs Innovation Awards for made-in-Canada breakthroughs – from discoveries that boost the “intelligence” in AI and purify industrial water from contaminants, to an AI-powered Parkinson’s assessment system and first-of-its-kind workplace program for adults with ADHD. The awards will be presented at the National Arts Centre in Ottawa and live",
+  "tipo": "outro",
+  "titulo": "Ten Canadian innovators turning research into game-changing results earn prestigious Mitacs Innovation Awards",
+  "url": "https://www.mitacs.ca/news/ten-canadian-innovators-earn-2026-mitacs-innovation-awards/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-19",
   "fontes": [
    "Terra Viva Grants"
