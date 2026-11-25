@@ -1,6 +1,27 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-25",
+  "fontes": [
+   "Opportunity Desk (grants)"
+  ],
+  "id": "68e0b3a8a3542476",
+  "motivos": [
+   "ecologia: ecosystem",
+   "ia: ai",
+   "elegibilidade: low- and middle-income"
+  ],
+  "pontos": 8,
+  "prazo": "2026-12-17",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-25",
+  "resumo": "Deadline: December 17, 2026 Applications are open for the GSMA Innovation Fund for AI-Enabled Financial Health 2027. Over the past decade, digital financial services have significantly expanded financial inclusion across low- and middle-income countries (LMICs), supported in large part by the growth of mobile money. As digital financial ecosystems mature, the challenge is shifting from [...]",
+  "tipo": "outro",
+  "titulo": "GSMA Innovation Fund for AI-Enabled Financial Health 2027 (up to £250,000)",
+  "url": "https://opportunitydesk.org/2026/11/25/gsma-innovation-fund-for-ai-enabled-financial-health-2027/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-23",
   "fontes": [
    "Scholars4Dev"
