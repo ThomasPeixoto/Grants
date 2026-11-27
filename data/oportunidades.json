@@ -1,6 +1,26 @@
 [
  {
   "destaque": false,
+  "encontrado": "2026-11-27",
+  "fontes": [
+   "fundsforNGOs"
+  ],
+  "id": "3f434eaf9de36dff",
+  "motivos": [
+   "ecologia: species",
+   "financiamento: fieldwork"
+  ],
+  "pontos": 5,
+  "prazo": "",
+  "prazo_rotulo": "",
+  "publicado": "2026-11-27",
+  "resumo": "Fieldwork is the beating heart of so many critical projects, whether you’re tracking endangered species, documenting historical sites, or testing new agricultural techniques in remote communities. But the reality is, traditional grant cycles often move at a glacial pace. Waiting months, sometimes over a year, for a funding decision can mean missing a crucial window... [Read More] The post Where to Find Rolling Innova",
+  "tipo": "pesquisa",
+  "titulo": "Where to Find Rolling Innovation Grants When Your Fieldwork Can’t Wait for the Next Funding Round",
+  "url": "https://www2.fundsforngos.org/articles-searching-grants-and-donors/where-to-find-rolling-innovation-grants-when-your-fieldwork-cant-wait-for-the-next-funding-round/"
+ },
+ {
+  "destaque": false,
   "encontrado": "2026-11-25",
   "fontes": [
    "Opportunity Desk (grants)"
